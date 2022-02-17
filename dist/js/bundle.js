@@ -1,0 +1,1 @@
+(()=>{"use strict";var t=document.getElementById("main_canvas");t.getContext("2d").fillRect(0,1,t.width,t.height),console.log([1,1])})();
