@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "An interactive exploration of how light reflects",
   "scripts": {
-    "dev": "npx tsc --watch"
+    "dev": "npx webpack --watch"
   },
   "devDependencies": {
     "ts-loader": "^9.2.6",
