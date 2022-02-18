@@ -1,3 +1,16 @@
+<style>
+    h1,
+    p {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    canvas {
+        display: block;
+        margin: 0 auto;
+    }
+</style>
+
 <div style="position: absolute; display: none">
     <img src="img/eye.svg" id="eye_img">
     <img src="img/handle.svg" id="handle_img">
@@ -6,8 +19,19 @@
     <img src="img/lightbulb_dance2.svg" id="lightbulb_dance2_img">
 </div>
 
-<h1>Hello World</h1>
+<h1>Let's explore light reflections!</h1>
 
-<canvas id="main_canvas" height="700" width="900"></canvas>
+<p>
+    Can you direct the eye to look into a mirror at the lightbulb?
+    What direction does the reflected lightbulb appear to be in? How far away does the
+    reflected lightbulb appear to be?
+</p>
+<br>
+<p>
+    Bonus: can you get the light to bounce in the mirrors multiple times before reaching the bulb?
+    When is lightbulb that the eye sees reflected? When is it not reflected?
+</p>
+
+<canvas id="main_canvas" height="500" width="900"></canvas>
 
 <script src="js/bundle.js"></script>
