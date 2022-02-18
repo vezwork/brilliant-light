@@ -17,6 +17,7 @@ v.s. the distance the light ray travels to reach that object.
 
 ## Implementation considerations
 
+- The code was written in TypeScript for the purpose of readability and correctness.
 - The code was written in a functional style, although it is not completely free from side-effects.
 - The code is general enough that it could be extended to create an interactive with
   different controls to illustrate different aspects of the scenario.
